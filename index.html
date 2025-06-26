@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev | Detective</title>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div id="wrapper">
+
+        <div class="header-container">
+            <!-- Heading -->
+            <h1>DevDetective</h1>
+
+            <!-- Switch Btn -->
+            <button swithTab>
+                <p swithValue>DARK</p>
+                <img src="./assets/images/moon-icon.svg" class="swithImg" swithImg>
+            </button>
+
+        </div>
+
+        <!-- Input Container -->
+        <div class="input-Containetr" >
+            <img src="./assets/images/search-icon.svg" >
+            
+            <input type="text" placeholder="Enter a GitHub username..." class="searchinput" required>
+            
+
+            <!-- Search Button -->
+            <button class="searchbtn" searchbtn>Search</button>
+
+        </div>
+    
+        <div class="container">
+    
+            <!-- User-info-container -->
+            <div class="info-container">
+
+                <div class="left-part">
+                    <img src="" picLink>
+                </div>
+
+                <div class="right-part">
+
+                    <div class="user-info">
+                        <p class="user-name"></p>
+                        <p class="joined-date"></p>  
+                    </div>
+
+                    <a href=" " target="_blank" class="github-link"></a>
+    
+                    <!-- user-bio- -->
+                    <p class="user-bio" user-bio></p>
+                    
+    
+                    <!-- User-stats-container -->
+                    <div class="user-stats-container">
+    
+                        <!-- Repos-container -->
+                        <div class="Repos-container">
+                            <p class="stats-heading">Repos</p>
+                            <p id="repos" class="stats-value"></p>
+                        </div>
+    
+                        <!-- Followers-container -->
+                        <div class="Followers-container">
+                            <p class="stats-heading">Followers</p>
+                            <p id="followers" class="stats-value"></p>
+                        </div>
+    
+                        <!-- Following-container -->
+                        <div class="Following-container">
+                            <p class="stats-heading">Following</p>
+                            <p id="following" class="stats-value"></p>
+                        </div>
+                    
+                    </div>
+    
+                    <!-- User-more-details -->
+                    <div class="user-bottom">
+    
+                        <!-- Location-wrapper -->
+                        <div class="user-details">
+                            <img src="./assets/images/location-icon.svg">
+                            <p id="location" class="info"></p>
+                        </div>
+    
+                        <!-- Website-Link -->
+                        <div class="user-details">
+                            <img src="./assets/images/website-icon.svg" >
+                            <p id="website-link" class="info"></p>
+                        </div>
+    
+                        <!-- Twitter-link -->
+                        <div class="user-details">
+                            <img src="./assets/images/twitter-icon.svg" >
+                            <p id="twitter" class="info"></p>
+                        </div>
+    
+                        <!-- Company-name -->
+                        <div class="user-details">
+                            <img src="./assets/images/company-icon.svg" >
+                            <p id="company" class="info"></p>
+                        </div>
+    
+                    </div>
+
+                </div>  
+
+            </div>
+            
+
+
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
